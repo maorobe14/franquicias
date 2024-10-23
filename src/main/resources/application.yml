@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: franquicias
+
+  datasource:
+    url: jdbc:mysql://database-evalart.cl4yiaam67rz.us-east-2.rds.amazonaws.com:3306/franquicias_db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: 3211233mm3
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+
+server:
+  port: 8089
